@@ -1,0 +1,14 @@
+ultralytics>=8.4.0
+opencv-python>=4.9
+supervision>=0.21
+python-chess>=1.10
+mediapipe>=0.10
+numpy>=1.26
+Pillow>=10.0
+
+# Stockfish is a system binary, not a pip package.
+#   Debian/Ubuntu: sudo apt install stockfish
+#   macOS:         brew install stockfish
+# Point the engine path in chess_detection_bbox.py (STOCKFISH_PATH /
+# `stockfish_path` in ChessTracker.__init__) at the installed binary,
+# e.g. /usr/games/stockfish on Debian/Ubuntu.

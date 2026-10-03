@@ -1,0 +1,27 @@
+# Video / media inputs & outputs
+*.mp4
+*.avi
+*.mov
+*.gif
+
+# Model weights (anything not explicitly committed under models/ or runs/)
+*.pt
+!models/best.pt
+!models/chessboard_det.pt
+!runs/segment/chessnut_evo_ft_v1/weights/best.pt
+
+# Frame dumps / scratch outputs
+frames/
+output_frames/
+*_frames/
+*.jpg.cache
+labels.cache
+*.cache
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS cruft
+.DS_Store
