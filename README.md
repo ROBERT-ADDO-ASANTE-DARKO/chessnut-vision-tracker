@@ -4,6 +4,8 @@
 
 No special board, no sensors, no manual input. Just a webcam over a [Chessnut Evo](https://chessnut.store/) board and a Python process.
 
+Most projects in this space do one half or the other — computer-vision board readers that stop at "here's the FEN," or engine-analysis tools that expect moves typed in by hand. This one chains live piece tracking straight into Stockfish, frame by frame, so the analysis updates in real time as the physical game is played.
+
 ![Full overlay](docs/images/full_overlay.jpg)
 *Live output after `1.e4 e5 2.Nf3 Nc6 3.Bb5 Nge7 4.Nc3` — every piece segmented and mapped to its square, move history, material balance, king safety, engine eval, and more, all updating in real time.*
 
